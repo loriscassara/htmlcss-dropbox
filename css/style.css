@@ -16,6 +16,7 @@
     width: 100%;
     height: 75px;
     justify-content: space-between;
+    position: fixed;
 }
 
 .header-item {
@@ -77,4 +78,74 @@
 .header-item2 > button:hover {
     background-color: #0046b8;
     cursor: pointer;
+}
+
+/* main elements */
+.main-container-top {
+    width: 80%;
+    margin: auto;
+    height: 245px;
+    background-color: #b4d0e7;
+    padding: 75px;
+    justify-content: center;
+}
+
+.main-container-top > h1 {
+    width: 57%;
+    padding-top: 50px;
+    font-size: 247%;
+    font-weight: 900;
+}
+
+.main-container-top0 {
+    width: 80%;
+    margin: auto;
+    height: 345px;
+    background-color: #b4d0e7;
+    padding-top: 20px;
+}
+
+#par0 {
+    width: 390px;
+    margin-left: 375px;
+}
+
+#img0 {
+    position: absolute;
+    right: 325px;
+    width: 35%;
+    top: 266px;
+}
+
+#button0 {
+    margin-left: 375px;
+    margin-top: 30px;
+    background-color: #0161ff;
+    color: white;
+    border-style: none;
+    height: 35px;
+    width: 14%;
+    font-weight: 600;
+}
+
+#button0:hover {
+    background-color: #0046b8;
+    cursor: pointer;
+}
+
+#par1 {
+    margin-left: 375px;
+    margin-top: 30px;
+}
+
+#par1:hover {
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#arrow {
+    margin-left: 375px;
+    margin-top: 30px;
+    height: 35px;
 }
