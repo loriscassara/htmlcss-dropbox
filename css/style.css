@@ -87,7 +87,7 @@
 
 .main-container-top {
     width: 90%;
-    margin-left: 392px;
+    margin-left: 188px;
     height: 245px;
     background-color: #b4d0e7;
     padding: 75px; 
@@ -98,6 +98,7 @@
     padding-top: 50px;
     font-size: 247%;
     font-weight: 900;
+    margin-left: 208px;
 }
 
 .main-container-top0 {
@@ -139,6 +140,7 @@
 #par1 {
     margin-left: 375px;
     margin-top: 30px;
+    width: 235px;
 }
 
 #par1:hover {
@@ -197,4 +199,9 @@
 
 #square-circle1:hover {
     cursor: pointer;
+}
+
+.plans {
+    padding-top: 75px;
+    justify-content: space-evenly;
 }
