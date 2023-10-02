@@ -80,18 +80,17 @@
     cursor: pointer;
 }
 
-/* main elements */
-.main {
+/* main-top elements */
+.main-top {
     background-color: #b4d0e7;
 }
 
 .main-container-top {
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin-left: 392px;
     height: 245px;
     background-color: #b4d0e7;
-    padding: 75px;
-    justify-content: center;
+    padding: 75px; 
 }
 
 .main-container-top > h1 {
@@ -102,7 +101,7 @@
 }
 
 .main-container-top0 {
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 345px;
     background-color: #b4d0e7;
@@ -116,7 +115,7 @@
 
 #img0 {
     position: absolute;
-    right: 325px;
+    right: 380px;
     width: 35%;
     top: 266px;
 }
@@ -152,4 +151,50 @@
     margin-left: 375px;
     margin-top: 30px;
     height: 35px;
+}
+
+/* main-medium elements */
+.main-medium {
+    width: 80%;
+    margin: auto;
+}
+
+.main-medium > h2 {
+    padding-top: 125px;
+    margin-left: 375px;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.circle {
+    margin-left: 375px;
+    padding-top: 50px;
+}
+
+.circle > p {
+    margin-right: 85px;
+}
+
+#square-circle0 {
+    width: 25px;
+    height: 25px;
+    border: solid 6px #0161ff;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+#square-circle1 {
+    width: 25px;
+    height: 25px;
+    border: solid 2px gray;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+#square-circle0:hover {
+    cursor: pointer;
+}
+
+#square-circle1:hover {
+    cursor: pointer;
 }
