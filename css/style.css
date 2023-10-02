@@ -81,6 +81,10 @@
 }
 
 /* main elements */
+.main {
+    background-color: #b4d0e7;
+}
+
 .main-container-top {
     width: 80%;
     margin: auto;
