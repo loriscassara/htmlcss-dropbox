@@ -1,0 +1,80 @@
+/* common UI elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* header elements */
+.header-container {
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    justify-content: space-between;
+}
+
+.header-item {
+    background-color:white ;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-item > img {
+    background-color: white;
+    height: 30%;
+    margin: 20px;
+}
+
+.header-item > a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.header-item2 {
+    background-color:white ;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-item2 > a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.header-item2 > button {
+    background-color: #0161ff;
+    color: white;
+    border-style: none;
+    margin: 20px;
+    height: 34px;
+    width: 20%;
+    font-weight: 600;
+}
+
+#link-button {
+    width: 234px;
+}
+
+.header-item > img:hover {
+    cursor: pointer;
+}
+
+.header-item > a:hover {
+    border-bottom: solid 2px #0161ff;
+}
+
+.header-item2 > a:hover {
+    border-bottom: solid 2px #0161ff;
+}
+
+.header-item2 > button:hover {
+    background-color: #0046b8;
+    cursor: pointer;
+}
