@@ -17,6 +17,7 @@
     height: 75px;
     justify-content: space-between;
     position: fixed;
+    box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.32);
 }
 
 .header-item {
@@ -86,7 +87,6 @@
 }
 
 .main-container-top {
-    width: 100%;
     margin-left: 188px;
     height: 245px;
     background-color: #b4d0e7;
@@ -155,6 +155,10 @@
     height: 35px;
 }
 
+#arrow:hover {
+    cursor: pointer;
+}
+
 /* main-medium elements */
 .main-medium {
     width: 50%;
@@ -199,13 +203,28 @@
     cursor: pointer;
 }
 
+/* start plans */
 .plans {
     padding-top: 75px;
     justify-content: space-evenly;
 }
 
-.single-title {
+.single {
     border: solid 1px grey;
+    margin-right: 25px;
+}
+
+.team {
+    border: solid 1px grey;
+    margin-right: 25px;
+}
+
+.agency {
+    border: solid 1px grey;
+}
+
+.single-title {
+    border-bottom: solid 1px grey;
     width: 300px;
     height: 40px;
     justify-content: center;
@@ -213,7 +232,7 @@
 }
 
 .team-title {
-    border: solid 1px grey;
+    border-bottom: solid 1px grey;
     width: 300px;
     height: 40px;
     justify-content: center;
@@ -221,9 +240,126 @@
 }
 
 .agency-title {
-    border: solid 1px grey;
+    border-bottom: solid 1px grey;
     width: 300px;
     height: 40px;
     justify-content: center;
     align-items: center;
+}
+
+.svg0 {
+    margin-right: 5px;
+}
+
+.title0 {
+    margin: 30px 0 10px 20px;
+}
+
+.title1 {
+    margin: 20px 0 10px 20px;
+}
+
+.title2 {
+    margin: 10px 0 10px 20px;
+    color: gray;
+    font-weight: 100;
+    font-size: small;
+}
+
+.table {
+    margin: 30px 0 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 15px;
+    width: 70%;
+    font-size: small;
+}
+
+.list-button {
+    margin: 10px 0 10px 20px;
+    background-color: #0161ff;
+    color: white;
+    border-style: none;
+    height: 35px;
+    width: 70%;
+    font-weight: 400;
+}
+
+.list-button:hover {
+    background-color: #0046b8;
+    cursor: pointer;
+}
+
+.shop-now {
+    font-size: small;
+    margin: 10px 0 10px 20px;
+}
+
+#now {
+    text-decoration: none;
+    color: #0161ff;
+    margin-left: 5px;
+}
+
+#now:hover {
+    cursor: pointer;
+    border-bottom: solid 1px #0161ff;
+}
+
+.hr-table {
+    width: 50px;
+    margin: 30px 0 10px 20px;
+}
+
+.h5-table {
+    margin: 30px 0 10px 20px;
+}
+/* finish plans */
+
+.team-container {
+    margin-top: 75px;
+    margin-bottom: 125px;
+    border: solid 1px grey;
+}
+
+.container-title-team {
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px grey;
+    height: 40px;
+}
+
+.container-team0 {
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.container-team0 > button {
+    margin-right: 10px;
+    background-color: #0161ff;
+    color: white;
+    border-style: none;
+    height: 35px;
+    width: 25%;
+    font-weight: 400;
+}
+
+.container-team0 > button:hover {
+    background-color: #0046b8;
+    cursor: pointer;
+}
+
+#par2 {
+    font-size: small;
+    width: 64%;
+    margin: 20px 0 20px 20px;
+}
+
+#partner {
+    width: 60%;
 }
