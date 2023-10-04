@@ -511,6 +511,7 @@ li {
     width: 666px;
     height: 666px;
     background-color: #f5f5f5;
+    overflow: scroll;
 }
 
 #img1 {
@@ -525,8 +526,9 @@ li {
 
 #par4 {
     font-size: small;
-    margin: 45px 45px;
+    margin: 150px 45px;
     width: 76%;
+    height: ;
 }
 
 .darkred {
