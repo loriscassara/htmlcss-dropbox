@@ -644,3 +644,60 @@ li {
     opacity: 1;
     cursor: pointer;
 }
+
+footer {
+    background-color: black;
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: auto;
+    height: 600px;
+}
+
+#f-title {
+    margin-top: 150px;
+    font-size: x-large;
+    margin-bottom: 25px;
+    margin-right: 125px;
+    width: 102px;
+}
+
+.footer-link {
+    margin-bottom: 100px;
+}
+
+.footer-link > ul {
+    width: 185px;
+    margin-right: 43px;
+}
+
+#flink {
+    text-decoration: none;
+    color: white;
+}
+
+#flink:hover {
+    border-bottom: solid 1px white;
+}
+
+#hr1 {
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+.language-container {
+    align-items: center;
+}
+
+#svgworld {
+    filter: invert(1);
+}
+
+#par8 {
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
